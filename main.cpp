@@ -27,3 +27,19 @@ int* Ex4(int array[], int count)
 
 	return 0;
 }
+
+// C에서 malloc과 calloc의 개념이 C++에서는 new ~ delete로 사용됨. 
+
+/* 포인터 변수 하나만 선언할 때 표기법.
+    
+	int* pointer = nullptr;
+
+
+	포인터 변수를 배열의 형태로 선언할 때 표기법.
+
+	int* pointer = new[];
+
+	delete[] pointer;
+*/
+
+
